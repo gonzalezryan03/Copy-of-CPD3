@@ -1,0 +1,79 @@
+/* reset.css */
+
+/* Reset margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove default list styles */
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove default text decoration and color from links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset images to ensure they fit their containers */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Normalize font sizes */
+html {
+  font-size: 100%;
+}
+
+/* Reset heading margins */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+/* Remove border from tables */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Remove default button styles */
+button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* Remove default fieldset styles */
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove default styles for figure */
+figure {
+  margin: 0;
+}
+
+/* Remove default focus outlines */
+:focus {
+  outline: none;
+}
+
+/* Reset blockquote styles */
+blockquote, q {
+  quotes: none;
+}
+
+/* Remove default border and padding in iframe */
+iframe {
+  border: none;
+}
